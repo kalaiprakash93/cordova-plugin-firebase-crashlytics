@@ -22,7 +22,7 @@ repositories {
 apply plugin: com.crashlytics.tools.gradle.CrashlyticsPlugin
 
 dependencies {
-    api ('com.crashlytics.sdk.android:crashlytics:2.10.1') {
+    api ('com.crashlytics.sdk.android:crashlytics:2.10.1@aar') {
        transitive = true
     }
 }
