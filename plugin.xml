@@ -66,16 +66,15 @@
       </feature>
     </config-file>
 
-    <podspec>
-      <config>
-        <source url="https://github.com/CocoaPods/Specs.git"/>
-      </config>
-      <pods use-frameworks="true">
-        <pod name="Fabric"/>
-        <pod name="Crashlytics" />
-        <pod name="FirebaseCore" />
-      </pods>
-    </podspec>
+   <podspec>
+            <config>
+                <source url="https://github.com/CocoaPods/Specs.git"/>
+            </config>
+            <pods>
+                <pod name="Fabric" spec="~> 1.10.1" />
+                <pod name="Crashlytics" spec="~> 3.13.4" />
+            </pods>
+     </podspec>
 
     <header-file src="src/ios/FirebaseCrashlyticsPlugin.h"/>
     <source-file src="src/ios/FirebaseCrashlyticsPlugin.m"/>
