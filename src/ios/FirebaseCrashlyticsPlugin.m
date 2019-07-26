@@ -1,6 +1,8 @@
 #import "FirebaseCrashlyticsPlugin.h"
 
 #import <Cordova/CDVAvailability.h>
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
 
 @implementation FirebaseCrashlyticsPlugin
 
