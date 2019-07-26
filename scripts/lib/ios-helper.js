@@ -27,7 +27,7 @@ module.exports = {
         xcodeProject.parseSync();
 
         // Build the body of the script to be executed during the build phase.
-        var script = '"${PODS_ROOT}/Fabric/run" dfe028c577198ce9b11cc86091df9e49d8c5cc36 d06bca0a4df7a00c7771ef34c29065f90cbeff9852c485bca5cd34cdd945f8a5';
+         var script = '"\\"${PODS_ROOT}/Fabric/run\\""';
         // Generate a unique ID for our new build phase.
         var id = xcodeProject.generateUuid();
         // Create the build phase.
