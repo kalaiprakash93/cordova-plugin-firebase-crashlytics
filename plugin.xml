@@ -65,7 +65,9 @@
         <param name="ios-package" value="FirebaseCrashlyticsPlugin" onload="true"/>
       </feature>
     </config-file>
-
+       <framework src="Fabric" type="podspec" spec="~> 1.10.1"/>
+    <framework src="Crashlytics" type="podspec" spec="~>  3.13.4"/>
+    <framework src="Firebase/Core" type="podspec" spec=""/>
    <podspec>
             <config>
                 <source url="https://github.com/CocoaPods/Specs.git"/>
